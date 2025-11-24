@@ -3,7 +3,7 @@ name: Build & Push - Order Service
 on:
   push:
     paths:
-      - "orderservice/**"
+      - "orderservice/src/main/java/com/example**"
   workflow_dispatch:
 
 jobs:
